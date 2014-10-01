@@ -1,0 +1,15 @@
+org\springside\examples\quickstart\functional\rest\TaskRestFT.class
+org\springside\examples\quickstart\functional\gui\TaskGuiFT.class
+org\springside\examples\quickstart\service\account\AccountServiceTest.class
+org\springside\examples\quickstart\functional\rest\TaskRestFT$TaskList.class
+org\springside\examples\quickstart\repository\JpaMappingTest.class
+org\springside\examples\quickstart\data\TaskData.class
+org\springside\examples\quickstart\functional\gui\ProfileFT.class
+org\springside\examples\quickstart\functional\BaseSeleniumTestCase.class
+org\springside\examples\quickstart\functional\BaseFunctionalTestCase.class
+org\springside\examples\quickstart\functional\gui\SecurityFT.class
+org\springside\examples\quickstart\QuickStartServer.class
+org\springside\examples\quickstart\data\UserData.class
+org\springside\examples\quickstart\functional\gui\UserAdminFT.class
+org\springside\examples\quickstart\repository\TaskDaoTest.class
+org\springside\examples\quickstart\functional\gui\RegisterFT.class
