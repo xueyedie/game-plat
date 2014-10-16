@@ -14,7 +14,7 @@
 			$("#inputForm").validate({
 				rules: {
 					loginName: {
-						remote: "${ctx}/register/checkLoginName"
+						remote: "${ctx}/admin/register/checkLoginName"
 					}
 				},
 				messages: {
@@ -28,7 +28,7 @@
 </head>
 
 <body>
-	<form id="inputForm" action="${ctx}/register" method="post" class="form-horizontal">
+	<form id="inputForm" action="${ctx}/admin/register" method="post" class="form-horizontal">
 		<fieldset>
 			<legend><small>用户注册</small></legend>
 			<div class="control-group">

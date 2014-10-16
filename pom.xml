@@ -41,9 +41,9 @@
 		<jdbc.driver.artifactId>h2</jdbc.driver.artifactId>
 		<jdbc.driver.version>${h2.version}</jdbc.driver.version>
 		-->	
-			<jdbc.driver.groupId>mysql</jdbc.driver.groupId>
-			<jdbc.driver.artifactId>mysql-connector-java</jdbc.driver.artifactId>
-			<jdbc.driver.version>5.1.22</jdbc.driver.version>
+		<jdbc.driver.groupId>mysql</jdbc.driver.groupId>
+		<jdbc.driver.artifactId>mysql-connector-java</jdbc.driver.artifactId>
+		<jdbc.driver.version>5.1.22</jdbc.driver.version>
 	</properties>
 
 	<prerequisites>
@@ -332,12 +332,12 @@
 		</dependency>
 
 		<!-- h2  如果生产数据库不是H2，解开下面的注释
+		-->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<version>${h2.version}</version>
 		</dependency>
-		-->
 
 		<!-- jetty -->
 		<dependency>

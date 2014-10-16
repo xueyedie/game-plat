@@ -18,9 +18,9 @@
 								<li><a href="${ctx}/admin/user">Admin Users</a></li>
 								<li class="divider"></li>
 							</shiro:hasRole>
-							<li><a href="${ctx}/api">APIs</a></li>
-							<li><a href="${ctx}/profile">Edit Profile</a></li>
-							<li><a href="${ctx}/logout">Logout</a></li>
+							<li><a href="${ctx}/admin/api">APIs</a></li>
+							<li><a href="${ctx}/admin/profile">Edit Profile</a></li>
+							<li><a href="${ctx}/admin/logout">Logout</a></li>
 						</ul>
 					</div>
 				</shiro:user>
