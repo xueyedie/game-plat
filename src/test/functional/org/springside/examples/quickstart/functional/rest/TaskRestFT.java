@@ -18,7 +18,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.client.RestTemplate;
 import org.springside.examples.quickstart.data.TaskData;
-import org.springside.examples.quickstart.entity.Task;
+import org.springside.examples.quickstart.admin.entity.Task;
 import org.springside.examples.quickstart.functional.BaseFunctionalTestCase;
 import org.springside.modules.mapper.JsonMapper;
 import org.springside.modules.test.category.Smoke;
