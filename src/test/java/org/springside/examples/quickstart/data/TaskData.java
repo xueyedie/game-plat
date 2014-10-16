@@ -5,8 +5,8 @@
  *******************************************************************************/
 package org.springside.examples.quickstart.data;
 
-import org.springside.examples.quickstart.entity.Task;
-import org.springside.examples.quickstart.entity.User;
+import org.springside.examples.quickstart.admin.entity.Task;
+import org.springside.examples.quickstart.admin.entity.User;
 import org.springside.modules.test.data.RandomData;
 
 /**

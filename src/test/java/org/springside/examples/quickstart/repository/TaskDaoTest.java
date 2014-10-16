@@ -13,7 +13,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.test.context.ContextConfiguration;
-import org.springside.examples.quickstart.entity.Task;
+import org.springside.examples.quickstart.admin.entity.Task;
+import org.springside.examples.quickstart.admin.repository.TaskDao;
 import org.springside.modules.test.spring.SpringTransactionalTestCase;
 
 @ContextConfiguration(locations = { "/applicationContext.xml" })

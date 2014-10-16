@@ -5,9 +5,16 @@
  *******************************************************************************/
 package org.springside.examples.quickstart.service.account;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.failBecauseExceptionWasNotThrown;
 
 import java.util.Date;
+
+import org.springside.examples.quickstart.admin.entity.User;
+import org.springside.examples.quickstart.admin.repository.TaskDao;
+import org.springside.examples.quickstart.admin.repository.UserDao;
+import org.springside.examples.quickstart.admin.service.ServiceException;
+import org.springside.examples.quickstart.admin.service.account.ShiroDbRealm.ShiroUser;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -15,12 +22,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+import org.springside.examples.quickstart.admin.service.account.AccountService;
 import org.springside.examples.quickstart.data.UserData;
-import org.springside.examples.quickstart.entity.User;
-import org.springside.examples.quickstart.repository.TaskDao;
-import org.springside.examples.quickstart.repository.UserDao;
-import org.springside.examples.quickstart.service.ServiceException;
-import org.springside.examples.quickstart.service.account.ShiroDbRealm.ShiroUser;
 import org.springside.modules.test.security.shiro.ShiroTestUtils;
 import org.springside.modules.utils.Clock.MockClock;
 
